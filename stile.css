@@ -2,7 +2,6 @@
 .body {
     position: relative;
     background-color: #DEBF9C;
-    /* overflow-x: hidden; */
     font-family: 'Antonio', sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -263,7 +262,7 @@
     line-height: 1.2;
   }
   .offer {
-    padding: 20px;
+    padding: 20px 20px 0;
   }
   .offer__link {
     font-size: 16px;
@@ -276,6 +275,7 @@
 @media screen and (max-width: 768px) {
   .container {
     padding: 10px 24px;
+    justify-content: space-around;
   }
   .header {
     padding: 8px;
@@ -344,5 +344,11 @@
   }
   .offer__item:last-child {
     margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .offer__link {
+    padding: 8px;
+    font-size: 8px;
   }
 }
