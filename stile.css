@@ -262,6 +262,7 @@
   }
   .profile__text {
     font-size: 14px;
+    line-height: 1.2;
   }
   .offer {
     padding: 20px;
@@ -280,7 +281,7 @@
   }
   .header {
     padding: 8px;
-    margin-bottom: 0;
+    margin-bottom: 5px;
   }
   .header__title {
     font-size: 28px;
@@ -296,12 +297,12 @@
     width: calc(100% + 48px);
   }
   .profile__quote {
-    margin-bottom: 0;
-    width: 90%;
+    margin-bottom: 10px;
+    width: 100%;
   }
   .profile__text {
     font-size: 14px;
-    max-width: 90%;
+    max-width: 100%;
     padding-bottom: 0;
   }
   .offer__item {
@@ -320,7 +321,7 @@
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 428px) {
   .header__title {
     font-size: 20px;
   }
@@ -329,12 +330,11 @@
     margin-right: 14px;
   }
   .profile {
-    padding: 10px;
+    padding: 10px 20px;
     margin-bottom: 0;
   }
   .profile__text {
-    font-size: 12px;
-    max-width: 90%;
+    font-size: 10px;
     padding-top: 10px;
   }
   .offer__item {
@@ -342,10 +342,10 @@
     margin-bottom: 10px;
   }
   .offer__link {
-    padding: 10px 3px;
-    font-size: 12px;
+    padding: 10px;
+    font-size: 10px;
   }
   .offer__item:last-child {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
 }
