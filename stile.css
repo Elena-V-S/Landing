@@ -60,7 +60,6 @@
  }
  .profile__foto {
    object-fit: contain;
-   overflow: hidden;
    width: 30%;
  }
 
