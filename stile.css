@@ -352,4 +352,25 @@
     padding: 8px;
     font-size: 8px;
   }
+  .popup__title {
+    font-size: 14px;
+    margin-bottom:16px;
+  }
+  .popup__container {
+    padding: 20px 30px;
+  }
+  .popup__close {
+    width: 24px;
+    height: 24px;
+    top: -18px;
+    right: -18px;
+  }
+
+  .popup_link {
+    font-size: 8px;
+  }
+  .popup_item {
+    margin-bottom: 10px;
+  }
+
 }
