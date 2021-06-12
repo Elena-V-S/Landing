@@ -301,7 +301,7 @@
   }
   .profile__text {
     font-size: 14px;
-    max-width: 100%;
+    max-width: 80%;
     padding-bottom: 0;
   }
   .offer__item {
@@ -375,6 +375,14 @@
   }
 }
 @media screen and (max-width: 375px) {
+  .container {
+    padding: 8px 14px;
+    justify-content: space-around;
+  }
+  .header {
+    padding: 0;
+    margin-bottom: 5px;
+  }
   .header__title {
     font-size: 16px;
   }
@@ -390,6 +398,11 @@
     font-size: 14px;
     margin-bottom:16px;
   }
+  .profile {
+    width: calc(100% + 28px);
+    padding: 5px 10px;
+  }
+
   .profile__text {
     font-size: 8px;
     padding: 8px;
@@ -399,11 +412,10 @@
   }
   .offer__slogan {
     font-size: 12px;
+    margin: 6px 0;
   }
   .offer__item:last-child {
     margin-bottom: 10px;
   }
-  .profile {
-    padding: 5px 10px;
-  }
+  
 }
