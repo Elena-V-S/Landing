@@ -6,7 +6,6 @@
     font-weight: 400;
     font-style: normal;
     background-color: blanchedalmond;
-    height: 100vh;
 }
 
 .container {
@@ -297,11 +296,11 @@
   }
   .profile__quote {
     margin-bottom: 10px;
-    width: 100%;
+    width: 90%;
   }
   .profile__text {
     font-size: 14px;
-    max-width: 80%;
+    max-width: 90%;
     padding-bottom: 0;
   }
   .offer__item {
@@ -380,7 +379,7 @@
     justify-content: space-around;
   }
   .header {
-    padding: 0;
+    padding: 5px;
     margin-bottom: 5px;
   }
   .header__title {
@@ -404,7 +403,6 @@
   }
 
   .profile__text {
-    max-width: 90%;
     font-size: 8px;
     padding: 5px;
   }
@@ -415,11 +413,11 @@
   padding: 0;
   }
   .offer {
-    padding: 20px 10px 2px;
+    padding: 20px 10px 10pxpx;
   }
   .offer__slogan {
     font-size: 12px;
-    margin: 0;
+    margin: 8px;
   }
   .offer__item:last-child {
     margin-bottom: 10px;
