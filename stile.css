@@ -404,15 +404,22 @@
   }
 
   .profile__text {
+    max-width: 90%;
     font-size: 8px;
-    padding: 8px;
+    padding: 5px;
+  }
+  .profile__foto {
+    width: 25%;
+  }
+  .profile__quote {
+  padding: 0;
   }
   .offer {
-    padding: 20px 10px 10px;
+    padding: 20px 10px 2px;
   }
   .offer__slogan {
     font-size: 12px;
-    margin: 6px 0;
+    margin: 0;
   }
   .offer__item:last-child {
     margin-bottom: 10px;
